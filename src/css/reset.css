@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "BlenderProBook";
+  src: url("./fonts/Blender-Pro-Book.otf") format("truetype");
+  /* Outros formatos de fonte podem ser adicionados conforme necessário */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Refinery";
+  src: url("./fonts/Refinery/Refinery\ 25\ Bold.ttf") format("truetype");
+  /* Outros formatos de fonte podem ser adicionados conforme necessário */
+  font-weight: bold;
+  font-style: normal;
+  font-display: uppercase;
+}
+* {
+  font-family: BlenderProBook, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+body {
+  background-color: #fef93b;
+}
